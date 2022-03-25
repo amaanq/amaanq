@@ -1,5 +1,3 @@
-### Hi there 👋
-
 ![My Stats](https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20GitHub%20Stats)
 [![My Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20Most%20Used%20Languages)](https://github.com/amaanq/github-readme-stats)
 
