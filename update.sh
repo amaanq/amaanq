@@ -172,8 +172,7 @@ EOL
 
 		x=$((t * w / (endAt - startAt)))
 		# y=$(((gap - (v - min)) * h / gap))
-		y=$((gap - (v - min)))
-		y=$((y * h / gap))
+		y=$[ (gap - (v - min)) * h / gap ]
 
 		# Draw the first move command if we haven't.
 		[[ ! $drew ]] && {
