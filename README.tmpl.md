@@ -3,6 +3,11 @@
 <p align="center">
     <img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
     <img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
+    <img alt="Profile views badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
+</p>
+
+<p align="center">
+    <img alt="Languages used" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20Most%20Used%20Languages" />
 </p>
 
 <h6 align="right">
