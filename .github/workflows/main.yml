@@ -2,7 +2,7 @@ name: Render README
 
 on:
   # Schedule updates (every 30 minutes)
-  schedule: [{cron: "*/30 * * * *"}]
+  schedule: [{cron: "*/5 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
 
@@ -10,18 +10,13 @@ jobs:
   render-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: cachix/install-nix-action@v10
-        env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-        with:
-          nix_path: nixpkgs=channel:nixos-20.09
-      - uses: workflow/nix-shell-action@608eb20401e12c82b204e8e2c6a8b0eebfb5407c
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Update
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        with:
-          packages: curl, jq, bash, coreutils
-          script: |
+        run: |
             ./update.sh
             # Skip if no changes.
             [[ ! "$(git status --porcelain)" ]] && echo "No changes." && exit 0
