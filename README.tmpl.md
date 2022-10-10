@@ -8,6 +8,7 @@
 
 <p align="center">
     <img alt="Languages used" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20Most%20Used%20Languages" />
+    <img alt="Overall stats" src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20GitHub%20Stats" />
 </p>
 
 <h6 align="right">
