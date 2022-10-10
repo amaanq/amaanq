@@ -20,7 +20,7 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         with:
-          nix_path: nixpkgs=channel:nixos-20.09
+          nix_path: nixpkgs=channel:nixos-unstable
       - uses: workflow/nix-shell-action@v3
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
