@@ -16,8 +16,7 @@ jobs:
       - name: Run update
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        with:
-          script: |
+        run: |
             ./update.sh
             # Skip if no changes.
             [[ ! "$(git status --porcelain)" ]] && echo "No changes." && exit 0
