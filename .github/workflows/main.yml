@@ -1,4 +1,4 @@
-name: Render README
+name: Update README
 
 on:
   # Schedule updates (every 30 minutes)
