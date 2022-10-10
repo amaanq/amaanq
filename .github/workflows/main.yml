@@ -3,7 +3,7 @@ name: Render README
 # Controls when the workflow will run
 on:
   # Schedule updates (every 30 minutes)
-  schedule: [{cron: "*/1 * * * *"}]
+  schedule: [{cron: "*/5 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master"]}
 
@@ -12,12 +12,11 @@ jobs:
   # This workflow contains a single job called "build"
   render-readme:
     # The type of runner that the job will run on
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-        env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+      - uses: workflow/nix-shell-action@608eb20401e12c82b204e8e2c6a8b0eebfb5407c
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
