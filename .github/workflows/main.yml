@@ -10,9 +10,11 @@ jobs:
   render-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/github-script@v6
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Update
+        uses: actions/github-script@v6
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
