@@ -18,8 +18,9 @@
 
 - 📚️ $(nPublicRepos) public repositories.
 - ⭐️ $(nStargazers) stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 💻️ Programming Languages: $(repoLanguages).
 - 📃️ Preferred Licenses: $(repoLicenses).
+- 📧 Questions? Reach out via email @ amaanq12@gmail.com
+<!-- - 💻️ Programming Languages: $(repoLanguages). -->
 
 ---
 
