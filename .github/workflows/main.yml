@@ -2,7 +2,7 @@ name: Render README
 
 on:
   # Schedule updates (every 30 minutes)
-  schedule: [{cron: "*/30 * * * *"}]
+  schedule: [{cron: "*/5 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
 
