@@ -171,7 +171,9 @@ EOL
 		v=$((v * m))
 
 		x=$((t * w / (endAt - startAt)))
-		y=$(((gap - (v - min)) * h / gap))
+		# y=$(((gap - (v - min)) * h / gap))
+		y=$((gap - (v - min)))
+		y=$((y * h / gap))
 
 		# Draw the first move command if we haven't.
 		[[ ! $drew ]] && {
@@ -243,6 +245,21 @@ topUnique() {
 }
 
 render() {
+	# local render
+	# render="$(mktemp)"
+	#
+	# (
+	# 	echo "cat << __EOF__"
+	# 	cat "$in"
+	# 	echo "__EOF__"
+	# ) >"$render"
+	#
+	# . "$render"
+	#
+	# rm "$render"
+
+	# rewrite the above without using . "$render"
+
 	local render
 	render="$(mktemp)"
 
@@ -252,7 +269,10 @@ render() {
 		echo "__EOF__"
 	) >"$render"
 
-	. "$render"
+	local renderOutput
+	renderOutput="$(cat "$render")"
+
+	eval "$renderOutput"
 
 	rm "$render"
 }
