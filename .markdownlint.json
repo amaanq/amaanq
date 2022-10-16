@@ -1,0 +1,25 @@
+{
+	"first-line-heading": {
+		"level": 2
+	},
+	"line-length": {
+		"line_length": 120
+	},
+	"no-emphasis-as-header": false,
+	"no-hard-tabs": false,
+	"no-inline-html": {
+		"allowed_elements": [
+			"a",
+			"b",
+			"details",
+			"h1",
+			"h3",
+			"h6",
+			"HR",
+			"img",
+			"p",
+			"sub",
+			"summary"
+		]
+	}
+}

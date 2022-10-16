@@ -1,22 +1,22 @@
 ## amaanq
 
 <p align="center">
-    <img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
-    <img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
-    <img alt="Profile views badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
+	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
+	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
+	<img alt="Profile views badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
 </p>
 
 <p align="center">
-    <img alt="Languages used" width="320"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20Most%20Used%20Languages"/>
-    <img alt="Overall stats" height="151"
-    src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20GitHub%20Stats" />
+	<img alt="Overall stats" height = "130"
+	src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true" />
+	<img alt="Languages used" height = "130"
+	src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true"/>
 </p>
 
 <h6 align="right">
 	<sub>
-        README generated in Bash.
-    </sub>
+		README generated in Bash.
+	</sub>
 </h6>
 
 - 📚️ $(nPublicRepos) public repositories.
@@ -29,7 +29,7 @@
 
 **Active Projects**
 
-- [apk-updater](https://github.com/amaanq/apk-updater) - Automatically update, decompile, and/or decompress a Supercell game APK
+- [apk-updater](https://github.com/amaanq/apk-updater) - Automatically update, decompile, and/or decompress Supercell APKs
 - [coc.go](https://github.com/amaanq/coc.go) - Clash of Clans API Wrapper in Go
 - [coc.rs](https://github.com/amaanq/coc.rs) - Clash of Clans API Wrapper in Rust
 - [coc-achievement-stats](https://github.com/amaanq/coc-achievement-stats) - CLI app to parse top players by achievements
@@ -43,16 +43,18 @@
 - [clash-assets](https://github.com/amaanq/clash-assets) - Unpacked game assets
 - [cr.go](https://github.com/amaanq/cr.go) - Clash Royale API Wrapper in Go
 - [Falcon8Reverse](https://github.com/amaanq/Falcon8Reverse) - Writing software to interact with Falcon 8 Keypad
-- [libpain](https://github.com/amaanq/libpain) - Demo of how to compile standalone C++ code to Android and hook said code with Frida
+- [libpain](https://github.com/amaanq/libpain) - Demo of how to compile standalone C++ code to Android and hook with Frida
 - [sc-compression.go](https://github.com/amaanq/sc-compression.go) - Supercell asset (de)compression tool (in Go)
 - [sc-compression.py](https://github.com/amaanq/sc-compression.py) - Supercell asset (de)compression tool (in Python)
 - [sc-compression.rs](https://github.com/amaanq/sc-compression.rs) - Supercell asset (de)compression tool (in Rust)
-- [vscode-hexeditor-varint](https://github.com/amaanq/vscode-hexeditor-varint) - Fork of Microsoft's extension that adds the ability to display varints
+- [vscode-hexeditor-varint](https://github.com/amaanq/vscode-hexeditor-varint) - Fork that adds varint support
 - [widgets](https://github.com/amaanq/widgets) - Wrappers to enhance the discordgo package
+
 </details>
 
 <details>
 <summary><b>Deprecated Projects</b> (1)</summary>
 
-- [bytestream-rs](https://github.com/amaanq/bytestream-rs) - embedded in a larger repository that is private, I can release just the bytestream portion if wanted
+- [bytestream-rs](https://github.com/amaanq/bytestream-rs) - Moved [here](https://github.com/amaanq/bytestream_io)
+
 </details>
