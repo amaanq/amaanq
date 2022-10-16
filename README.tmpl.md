@@ -55,6 +55,6 @@
 <details>
 <summary><b>Deprecated Projects</b> (1)</summary>
 
-- [bytestream-rs](https://github.com/amaanq/bytestream-rs) - Moved [here](https://github.com/amaanq/bytestream_io)
+- [bytestream-rs](https://github.com/amaanq/bytestream-rs) - Moved [here](https://github.com/amaanq/bytestream_derive)
 
 </details>
