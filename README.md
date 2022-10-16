@@ -1,14 +1,16 @@
 ## amaanq
 
 <p align="center">
-    <img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-62-%23248eb7" />
+    <img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-66-%23248eb7" />
     <img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-32-%23bf5d2f" />
     <img alt="Profile views badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
 </p>
 
 <p align="center">
-    <img alt="Languages used" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20Most%20Used%20Languages" />
-    <img alt="Overall stats" src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20GitHub%20Stats" />
+    <img alt="Languages used" width="320"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20Most%20Used%20Languages"/>
+    <img alt="Overall stats" height="151"
+    src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&custom_title=My%20GitHub%20Stats" />
 </p>
 
 <h6 align="right">
@@ -17,11 +19,11 @@
     </sub>
 </h6>
 
-- 📚️ 62 public repositories.
+- 📚️ 66 public repositories.
 - ⭐️ 32 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 📃️ Preferred Licenses: MIT (25%), GPL (19%), NOASSERTION (3%), and others (53%).
+- 📃️ Preferred Licenses: MIT (24%), GPL (18%), NOASSERTION (3%), and others (55%).
 - 📧 Questions? Reach out via email @ amaanq12@gmail.com
-<!-- - 💻️ Programming Languages: Go (38%), Rust (19%), Python (16%), and others (27%). -->
+<!-- - 💻️ Programming Languages: Go (36%), Rust (24%), Python (15%), and others (25%). -->
 
 ---
 
