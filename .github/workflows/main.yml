@@ -2,7 +2,7 @@ name: Render README
 
 on:
   # Schedule updates (every 30 minutes)
-  schedule: [{cron: "*/5 * * * *"}]
+  schedule: [{cron: "*/30 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
 
@@ -10,19 +10,27 @@ jobs:
   render-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        
+      - uses: actions/checkout@v3
+
+      - uses: diamondburned/cache-install@v0.1.0
+        with:
+          nix-path: nixpkgs=channel:nixos-20.09
+          shell-file: shell.nix
+          instantiated-files: packages/
+
       - name: Update
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
-            ./update.sh
-            # Skip if no changes.
-            [[ ! "$(git status --porcelain)" ]] && echo "No changes." && exit 0
-            # Push code.
-            git config --global user.name  "github-actions[bot]"
-            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A
-            git commit -m "auto update README"
-            git push
+          ./update.sh
+          # Skip if no changes.
+          if [[ ! "$(git status --porcelain)" ]]; then
+            echo "No changes."
+            exit 0
+          fi
+          # Push code.
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Auto-updated README"
+          git push
