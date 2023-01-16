@@ -158,9 +158,7 @@ EOL
 	local drew=
 
 	for row in "${rows[@]}"; {
-		IFS=, values=( "$row" )
-		local t="${values[0]}"
-		local v="${values[1]}"
+		IFS=, read -r t v <<< "$row"
 
 		# Calculate the time instant if the startAt were to be the starting
 		# point.
