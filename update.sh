@@ -10,7 +10,7 @@ main() {
 	require curl jq sort uniq
 
 	# Require the metrics token for API querying.
-	[[ "$METRICS_TOKEN" ]] || fatal 'missing $METRICS_TOKEN'
+	[[ "$METRICS_TOKEN" ]] || fatal "missing METRICS_TOKEN"
 
 	reposJSON=()
 	reposPage=0
@@ -30,7 +30,7 @@ main() {
 	publicReposJSON=$(printf "%s\n" "${reposJSON[@]}" | jq -c "select((.private | not ) and (.fork | not))")
 
 	render > "$out"
-	saveCSV "data/stargazers.csv" "$(nStargazers)"
+	saveCSV 'data/stargazers.csv' "$(nStargazers)"
 
 	# This does virtually nothing, but hopefully we can improve it to be better
 	# in the future. For now, just remove the faulty record manually.
@@ -76,9 +76,7 @@ movingAverage() {
 
 	window=()
 	for row in "${rows[@]}"; {
-		IFS=, values=( $row )
-		local t="${values[0]}"
-		local v="${values[1]}"
+		IFS=, read -r t v <<< "$row"  
 
 		window+=( "$v" )
 
@@ -92,9 +90,9 @@ movingAverage() {
 		# Average out the window.
 		local avg=0
 		for value in "${window[@]}"; {
-			avg=$[ avg + value ]
+			avg=$(( avg + value ))
 		}
-		avg=$[ avg / ${#window[@]} ]
+		avg=$(( avg / ${#window[@]} ))
 
 		# Print record
 		echo "$t,$avg"
@@ -112,8 +110,8 @@ renderSVG() {
 	local h=10
 	local m=100 # multiples for accuracy; beware of epoch overflow
 
-	w=$[ w * m ]
-	h=$[ h * m ]
+	w=$(( w * m ))
+	h=$(( h * m ))
 
 	cat << EOL
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 $w $h">
@@ -132,26 +130,27 @@ EOL
 
 	for row in "${rows[@]}"; {
 		# Parse the row into an array of values delimited by a comma.
-		IFS=, values=( $row )
-		local t="${values[0]}"
-		local v="${values[1]}"
+		IFS=, read -r t v <<< "$row"
 
 		# If the datapoint is outside the time range, then skip it.
-		(( t < startAt )) && continue
+		# (( t < startAt )) && continue
+		if (( t < startAt )); then
+			continue
+		fi
 
 		(( v > max )) || [[ ! "$max" ]] && max=$v
 		(( v < min )) || [[ ! "$min" ]] && min=$v
 	}
 
 	# Deal with the inaccurate integer math by scaling up the values.
-	min=$[ min * m ]
-	max=$[ max * m ]
+	min=$(( min * m ))
+	max=$(( max * m ))
 	# Add a bit of headroom (5% or 20/100 parts extra) for the max value.
-	max=$[ max + (max / (20 * m)) ]
+	max=$(( max + (max / (20 * m)) ))
 	# Do a bit more (10% or 10/100) for the min value.
-	min=$[ min - (min / (10 * m)) ]
+	min=$(( min - (min / (10 * m)) ))
 	# gap is the difference between the minimum and maximum value.
-	gap=$[ max - min ]
+	gap=$(( max - min ))
 
 	printf '\t'
 	printf '<path fill="none" stroke="%s" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" d="' "$color"
@@ -159,19 +158,19 @@ EOL
 	local drew=
 
 	for row in "${rows[@]}"; {
-		IFS=, values=( $row )
+		IFS=, values=( "$row" )
 		local t="${values[0]}"
 		local v="${values[1]}"
 
 		# Calculate the time instant if the startAt were to be the starting
 		# point.
-		t=$[ t - startAt ]
+		t=$(( t - startAt ))
 
 		# Scale the value up.
-		v=$[ v * m ]
+		v=$(( v * m ))
 
-		x=$[ t * w / (endAt - startAt) ]
-		y=$[ (gap - (v - min)) * h / gap ]
+		x=$(( t * w / (endAt - startAt) ))
+		y=$(( (gap - (v - min)) * h / gap ))
 
 		# Draw the first move command if we haven't.
 		[[ ! $drew ]] && {
@@ -228,7 +227,7 @@ topUnique() {
 			local count=${BASH_REMATCH[1]}
 			local item=${BASH_REMATCH[2]}
 
-			local percentage=$[ count * 100 / nrepos ]
+			local percentage=$(( count * 100 / nrepos ))
 			top+=( "$item ($percentage%)" )
 
 			(( sum += percentage )) || true # (()) is weird.
@@ -239,11 +238,12 @@ topUnique() {
 	(( sum == 0 )) && return 0
 
 	printf "%s, " "${top[@]}"
-	echo -n "and others ($[100-sum]%)"
+	echo -n "and others ($((100-sum))%)"
 }
 
 render() {
-	local render="$(mktemp)"
+	local render
+	render="$(mktemp)"
 
 	(
 		echo "cat << __EOF__"
@@ -276,7 +276,7 @@ queryGitHub() {
 		"https://api.github.com$1"
 }
 
-# GET url...
+# GET u.
 httpGET() {
 	curl -X GET -f -s "$@"
 }
