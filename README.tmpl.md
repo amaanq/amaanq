@@ -1,15 +1,15 @@
 ## amaanq
 
 <p align="center">
-	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
-	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
-	<img alt="Profile views badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
+	<img alt="Repositories Badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
+	<img alt="Stargazers Badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
+	<img alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
 </p>
 
 <p align="center">
-	<img alt="Overall stats" height = "130"
+	<img alt="Overall Stats" height = "130"
 	src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true" />
-	<img alt="Languages used" height = "130"
+	<img alt="Languages Used" height = "130"
 	src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true"/>
 </p>
 
