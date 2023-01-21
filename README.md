@@ -1,7 +1,7 @@
 ## amaanq
 
 <p align="center">
-	<img alt="Repositories Badge" src="https://img.shields.io/badge/Public%20Repositories-78-%23248eb7" />
+	<img alt="Repositories Badge" src="https://img.shields.io/badge/Public%20Repositories-80-%23248eb7" />
 	<img alt="Stargazers Badge" src="https://img.shields.io/badge/Stargazers-60-%23bf5d2f" />
 	<img alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
 </p>
@@ -21,9 +21,9 @@
 	</sub>
 </h6>
 
-- 📚️ 78 public repositories.
+- 📚️ 80 public repositories.
 - ⭐️ 60 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 📃️ Preferred Licenses: MIT (23%), GPL (17%), NOASSERTION (2%), and others (58%).
+- 📃️ Preferred Licenses: MIT (22%), GPL (17%), NOASSERTION (2%), and others (59%).
 - 📧 Questions? Reach out via email @ amaanq12@gmail.com
 <!-- - 💻️ Programming Languages: Rust (30%), Go (30%), Python (12%), and others (28%). -->
 
