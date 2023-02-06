@@ -23,7 +23,7 @@
 
 - 📚️ 92 public repositories.
 - ⭐️ 108 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 📃️ Preferred Licenses: MIT (19%), GPL (15%), NOASSERTION (2%), and others (64%).
+- 📃️ Preferred Licenses: MIT (21%), GPL (15%), NOASSERTION (2%), and others (62%).
 - 📧 Questions? Reach out via email @ amaanq12@gmail.com
 <!-- - 💻️ Programming Languages: Rust (30%), Go (26%), JavaScript (13%), and others (31%). -->
 
