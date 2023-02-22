@@ -25,7 +25,7 @@
 - ⭐️ 116 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 📃️ Preferred Licenses: MIT (25%), GPL (13%), NOASSERTION (1%), and others (61%).
 - 📧 Questions? Reach out via email @ amaanq12@gmail.com
-<!-- - 💻️ Programming Languages: Rust (29%), Go (23%), JavaScript (13%), and others (35%). -->
+<!-- - 💻️ Programming Languages: Rust (27%), Go (23%), JavaScript (13%), and others (37%). -->
 
 ---
 
