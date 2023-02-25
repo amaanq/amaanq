@@ -55,8 +55,8 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Move (WIP)](https://github.com/amaanq/tree-sitter-move) — A programming language for writing safe smart contracts
 - [Nginx (WIP)](https://github.com/amaanq/tree-sitter-nginx) — A web server that can also be used as
   a reverse proxy, load balancer, mail proxy and HTTP cache
-- [Recutils (WIP)](https://github.com/amaanq/tree-sitter-rec) — Data stored as a sequence of records where each record
-  contains an arbitrary number of named fields
+- [Recutils (WIP)](https://github.com/amaanq/tree-sitter-rec) — A text-based database for data stored as a sequence of records
+  where each record contains an arbitrary number of named fields
 - [Rusty Object Notation (RON)](https://github.com/amaanq/tree-sitter-ron) — A simple readable data serialization format
   that looks similar to Rust syntax
 - [Smali](https://git.sr.ht/~yotam/tree-sitter-smali) — An assembler/disassembler for the DEX format used by Dalvik,
@@ -80,8 +80,8 @@ I've created several in hopes of having grammars for (nearly) every language.
 
 ## Personal Projects
 
-A lot of my free-time nowadays goes to either tree-sitter, or personal projects.
-These tend to revolve around Rust, Linux, Neovim, Reverse Engineering, or Clash of Clans.
+A lot of my free-time nowadays goes to either tree-sitter parser development and maintenance or personal projects.
+My personal projects tend to revolve around Rust, Linux, Neovim, Reverse Engineering, or Clash of Clans.
 
 I am also an embedded software/hardware enthusiast and love to dabble in assembly code (namely the ARM family due to Android reversing).
 
