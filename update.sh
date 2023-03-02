@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-set -e
+
+set -eu
 
 username="amaanq"
 in="README.tmpl.md"
@@ -28,6 +29,7 @@ main() {
 	done
 
 	publicReposJSON=$(printf "%s\n" "${reposJSON[@]}" | jq -c "select((.private | not ) and (.fork | not) and (.full_name | startswith(\"nvim-treesitter\") | not))")
+	echo -n "$publicReposJSON" >1.json
 
 	render >"$out"
 	saveCSV 'data/stargazers.csv' "$(nStargazers)"

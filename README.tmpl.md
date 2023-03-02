@@ -1,8 +1,6 @@
 ## amaanq
 
 <p align="center">
-	<img alt="Repositories Badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
-	<img alt="Stargazers Badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
 	<img alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
 </p>
 
@@ -43,7 +41,7 @@ I've created several in hopes of having grammars for (nearly) every language.
   capability-based RPC system
 - [ChainPack Object Notation (CPON)](https://github.com/amaanq/tree-sitter-cpon)
   — The best from both XML and JSON
-- [Cue (WIP)](https://github.com/eonpatapon/tree-sitter-cue) — An open source data constraint language, which aims to simplify
+- [Cue](https://github.com/eonpatapon/tree-sitter-cue) — An open source data constraint language, which aims to simplify
   tasks involving defining and using data.
 - [Elsa](https://github.com/glapa-grossklag/tree-sitter-elsa) — A lambda calculus evaluator
 - [FunC](https://github.com/amaanq/tree-sitter-func) — A high-level language used to program smart contracts on TON
