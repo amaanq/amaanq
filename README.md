@@ -1,8 +1,6 @@
 ## amaanq
 
 <p align="center">
-	<img alt="Repositories Badge" src="https://img.shields.io/badge/Public%20Repositories-104-%23248eb7" />
-	<img alt="Stargazers Badge" src="https://img.shields.io/badge/Stargazers-124-%23bf5d2f" />
 	<img alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=amaanq&style=flat" />
 </p>
 
@@ -23,7 +21,7 @@
 
 - 📚️ 104 public repositories.
 - ⭐️ 124 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 📃️ Preferred Licenses: MIT (31%), GPL (13%), NOASSERTION (1%), and others (55%).
+- 📃️ Preferred Licenses: MIT (31%), GPL (15%), BSD (1%), and others (53%).
 - 📧 Questions? Reach out via email @ amaanq12@gmail.com
 <!-- - 💻️ Programming Languages: Rust (27%), Go (23%), JavaScript (17%), and others (33%). -->
 
@@ -43,7 +41,7 @@ I've created several in hopes of having grammars for (nearly) every language.
   capability-based RPC system
 - [ChainPack Object Notation (CPON)](https://github.com/amaanq/tree-sitter-cpon)
   — The best from both XML and JSON
-- [Cue (WIP)](https://github.com/eonpatapon/tree-sitter-cue) — An open source data constraint language, which aims to simplify
+- [Cue](https://github.com/eonpatapon/tree-sitter-cue) — An open source data constraint language, which aims to simplify
   tasks involving defining and using data.
 - [Elsa](https://github.com/glapa-grossklag/tree-sitter-elsa) — A lambda calculus evaluator
 - [FunC](https://github.com/amaanq/tree-sitter-func) — A high-level language used to program smart contracts on TON
