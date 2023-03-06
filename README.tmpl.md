@@ -35,6 +35,7 @@ I've created several in hopes of having grammars for (nearly) every language.
 <details>
 <summary><small><b>Parsers I own or co-maintain</b></small></summary>
 
+- [Bass](https://github.com/vito/tree-sitter-bass) — A low-fidelity Lisp dialect for the glue code driving your project
 - [Bicep](https://github.com/amaanq/tree-sitter-bicep) — A domain-specific language (DSL) that uses declarative syntax
   to deploy Azure resources
 - [Cap'n Proto](https://github.com/amaanq/tree-sitter-capnp) — An insanely fast data interchange format and
@@ -42,17 +43,24 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [ChainPack Object Notation (CPON)](https://github.com/amaanq/tree-sitter-cpon)
   — The best from both XML and JSON
 - [Cue](https://github.com/eonpatapon/tree-sitter-cue) — An open source data constraint language, which aims to simplify
-  tasks involving defining and using data.
+  tasks involving defining and using data
 - [Elsa](https://github.com/glapa-grossklag/tree-sitter-elsa) — A lambda calculus evaluator
+- [FIRRTL](https://github.com/chipsalliance/tree-sitter-firrtl) — An intermediate representation (IR) for digital circuits
+  designed as a platform for writing circuit-level transformations
 - [FunC](https://github.com/amaanq/tree-sitter-func) — A high-level language used to program smart contracts on TON
 - [Gosum](https://github.com/amaanq/tree-sitter-go-sum) — Golang modules checksum database
 - [Jenkinsfile (WIP)](https://github.com/amaanq/tree-sitter-jenkinsfile) — A language to create simple and complex delivery
   pipelines as code via pipeline DSL
 - [KDL](https://github.com/amaanq/tree-sitter-kdl) — A document language with xml-like semantics to be used both as a
   serialization format and a configuration language
+- [Lua Patterns](https://github.com/amaanq/tree-sitter-luap) — Lua Patterns, a simple string matching tool that's lighter
+  than Regex.
 - [Move (WIP)](https://github.com/amaanq/tree-sitter-move) — A programming language for writing safe smart contracts
 - [Nginx (WIP)](https://github.com/amaanq/tree-sitter-nginx) — A web server that can also be used as
   a reverse proxy, load balancer, mail proxy and HTTP cache
+- [OpenSCAD](https://github.com/bollian/tree-sitter-openscad) — The Programmer's Solid 3D CAD Modeller
+- [PO](https://github.com/erasin/tree-sitter-po) — The GNU gettext translation file
+- [Qmldir](https://github.com/Decodetalkers/tree-sitter-qmldir) — QML module definition files
 - [Recutils (WIP)](https://github.com/amaanq/tree-sitter-rec) — A text-based database for data stored as a sequence of records
   where each record contains an arbitrary number of named fields
 - [Rusty Object Notation (RON)](https://github.com/amaanq/tree-sitter-ron) — A simple readable data serialization format
@@ -60,6 +68,9 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Smali](https://git.sr.ht/~yotam/tree-sitter-smali) — An assembler/disassembler for the DEX format used by Dalvik,
   Android's Java VM implementation
 - [Smithy](https://github.com/indoorvivants/tree-sitter-smithy) — A language for defining services and SDKs
+- [Squirrel](https://github.com/amaanq/tree-sitter-squirrel) — A high level imperative, object-oriented programming language,
+  designed to be a light-weight scripting language that fits in the size, memory bandwidth,
+  and real-time requirements of applications like video games.
 - [Starlark](https://github.com/amaanq/tree-sitter-starlark) — A dialect of Python intended for use as a configuration language
 - [Thrift](https://github.com/duskmoon314/tree-sitter-thrift) — A software framework for scalable cross-language services
   development
