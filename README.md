@@ -75,6 +75,7 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Thrift](https://github.com/duskmoon314/tree-sitter-thrift) — A software framework for scalable cross-language services
   development
 - [Ungrammar](https://github.com/Philipp-M/tree-sitter-ungrammar) — A DSL for specifying concrete syntax trees
+- [Uxn Tal](https://github.com/amaanq/tree-sitter-uxntal) — The programming language for the Uxn virtual machine
 - [Yuck](https://github.com/Philipp-M/tree-sitter-yuck) — A new configuration syntax used by eww
 
 </details>
