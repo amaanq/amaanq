@@ -49,12 +49,14 @@ I've created several in hopes of having grammars for (nearly) every language.
   designed as a platform for writing circuit-level transformations
 - [FunC](https://github.com/amaanq/tree-sitter-func) — A high-level language used to program smart contracts on TON
 - [Gosum](https://github.com/amaanq/tree-sitter-go-sum) — Golang modules checksum database
+- [Hare](https://github.com/amaanq/tree-sitter-hare) — A systems programming language designed to be simple, stable,
+  and robust
 - [Jenkinsfile (WIP)](https://github.com/amaanq/tree-sitter-jenkinsfile) — A language to create simple and complex delivery
   pipelines as code via pipeline DSL
 - [KDL](https://github.com/amaanq/tree-sitter-kdl) — A document language with xml-like semantics to be used both as a
   serialization format and a configuration language
 - [Lua Patterns](https://github.com/amaanq/tree-sitter-luap) — Lua Patterns, a simple string matching tool that's lighter
-  than Regex.
+  than Regex
 - [Move (WIP)](https://github.com/amaanq/tree-sitter-move) — A programming language for writing safe smart contracts
 - [Nginx (WIP)](https://github.com/amaanq/tree-sitter-nginx) — A web server that can also be used as
   a reverse proxy, load balancer, mail proxy and HTTP cache
@@ -70,7 +72,7 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Smithy](https://github.com/indoorvivants/tree-sitter-smithy) — A language for defining services and SDKs
 - [Squirrel](https://github.com/amaanq/tree-sitter-squirrel) — A high level imperative, object-oriented programming language,
   designed to be a light-weight scripting language that fits in the size, memory bandwidth,
-  and real-time requirements of applications like video games.
+  and real-time requirements of applications like video games
 - [Starlark](https://github.com/amaanq/tree-sitter-starlark) — A dialect of Python intended for use as a configuration language
 - [Thrift](https://github.com/duskmoon314/tree-sitter-thrift) — A software framework for scalable cross-language services
   development
