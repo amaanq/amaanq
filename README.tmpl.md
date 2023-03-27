@@ -55,6 +55,7 @@ I've created several in hopes of having grammars for (nearly) every language.
   pipelines as code via pipeline DSL
 - [KDL](https://github.com/amaanq/tree-sitter-kdl) — A document language with xml-like semantics to be used both as a
   serialization format and a configuration language
+- [Lua Doc](https://github.com/amaanq/tree-sitter-luadoc) — Documentation for Lua Code
 - [Lua Patterns](https://github.com/amaanq/tree-sitter-luap) — Lua Patterns, a simple string matching tool that's lighter
   than Regex
 - [Move (WIP)](https://github.com/amaanq/tree-sitter-move) — A programming language for writing safe smart contracts
@@ -62,6 +63,8 @@ I've created several in hopes of having grammars for (nearly) every language.
   a reverse proxy, load balancer, mail proxy and HTTP cache
 - [OpenSCAD](https://github.com/bollian/tree-sitter-openscad) — The Programmer's Solid 3D CAD Modeller
 - [PO](https://github.com/erasin/tree-sitter-po) — The GNU gettext translation file
+- [Pony](https://github.com/amaanq/tree-sitter-pony) — An open-source, object-oriented, actor-model, capabilities-secure,
+  high-performance programming language.
 - [Qmldir](https://github.com/Decodetalkers/tree-sitter-qmldir) — QML module definition files
 - [Recutils (WIP)](https://github.com/amaanq/tree-sitter-rec) — A text-based database for data stored as a sequence of records
   where each record contains an arbitrary number of named fields
@@ -74,6 +77,8 @@ I've created several in hopes of having grammars for (nearly) every language.
   designed to be a light-weight scripting language that fits in the size, memory bandwidth,
   and real-time requirements of applications like video games
 - [Starlark](https://github.com/amaanq/tree-sitter-starlark) — A dialect of Python intended for use as a configuration language
+- [Tablegen](https://github.com/amaanq/tree-sitter-tablegen) — A language to generate complex output files based on information
+  from source files that are significantly easier to code than the output files would be
 - [Thrift](https://github.com/duskmoon314/tree-sitter-thrift) — A software framework for scalable cross-language services
   development
 - [Ungrammar](https://github.com/Philipp-M/tree-sitter-ungrammar) — A DSL for specifying concrete syntax trees
@@ -85,6 +90,8 @@ I've created several in hopes of having grammars for (nearly) every language.
 <details>
 <summary><small><b>Parsers I've contributed to</small></b></summary>
 
+- [C++](https://github.com/tree-sitter/tree-sitter-cpp) — A high-level, general-purpose programming language designed
+  for system and application programming
 - [Java](https://github.com/amaanq/tree-sitter-java) — A programming language and computing platform first released by
   Sun Microsystems in 1995
 
