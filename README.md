@@ -58,13 +58,19 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Lua Doc](https://github.com/amaanq/tree-sitter-luadoc) — Documentation for Lua Code
 - [Lua Patterns](https://github.com/amaanq/tree-sitter-luap) — Lua Patterns, a simple string matching tool that's lighter
   than Regex
+- [Luau](https://github.com/amaanq/tree-sitter-luau) — A fast, small, safe, gradually typed embeddable scripting
+  language derived from Lua
 - [Move (WIP)](https://github.com/amaanq/tree-sitter-move) — A programming language for writing safe smart contracts
 - [Nginx (WIP)](https://github.com/amaanq/tree-sitter-nginx) — A web server that can also be used as
   a reverse proxy, load balancer, mail proxy and HTTP cache
+- [Odin](https://github.com/amaanq/tree-sitter-odin) — A general-purpose programming language with distinct typing,
+  built for high performance, modern systems, and built-in data-oriented data types
 - [OpenSCAD](https://github.com/bollian/tree-sitter-openscad) — The Programmer's Solid 3D CAD Modeller
 - [PO](https://github.com/erasin/tree-sitter-po) — The GNU gettext translation file
 - [Pony](https://github.com/amaanq/tree-sitter-pony) — An open-source, object-oriented, actor-model, capabilities-secure,
-  high-performance programming language.
+  high-performance programming language
+- [Puppet](https://github.com/amaanq/tree-sitter-puppet) — A declarative language that describes the state of a computer
+  system as "resources", which represent underlying network and operating system constructs
 - [Qmldir](https://github.com/Decodetalkers/tree-sitter-qmldir) — QML module definition files
 - [Recutils (WIP)](https://github.com/amaanq/tree-sitter-rec) — A text-based database for data stored as a sequence of records
   where each record contains an arbitrary number of named fields
