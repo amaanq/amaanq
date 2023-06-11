@@ -51,6 +51,8 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Gosum](https://github.com/amaanq/tree-sitter-go-sum) — Golang modules checksum database
 - [Hare](https://github.com/amaanq/tree-sitter-hare) — A systems programming language designed to be simple, stable,
   and robust
+- [Haxe](https://github.com/amaanq/tree-sitter-haxe) — An open source high-level strictly-typed programming language
+  with a fast optimizing cross-compiler
 - [Jenkinsfile (WIP)](https://github.com/amaanq/tree-sitter-jenkinsfile) — A language to create simple and complex delivery
   pipelines as code via pipeline DSL
 - [KDL](https://github.com/amaanq/tree-sitter-kdl) — A document language with xml-like semantics to be used both as a
@@ -63,6 +65,8 @@ I've created several in hopes of having grammars for (nearly) every language.
 - [Move (WIP)](https://github.com/amaanq/tree-sitter-move) — A programming language for writing safe smart contracts
 - [Nginx (WIP)](https://github.com/amaanq/tree-sitter-nginx) — A web server that can also be used as
   a reverse proxy, load balancer, mail proxy and HTTP cache
+- [Objective-C](https://github.com/amaanq/tree-sitter-objc) — A high-level general-purpose, object-oriented programming
+  language that adds Smalltalk-style messaging to the C programming language
 - [Odin](https://github.com/amaanq/tree-sitter-odin) — A general-purpose programming language with distinct typing,
   built for high performance, modern systems, and built-in data-oriented data types
 - [OpenSCAD](https://github.com/bollian/tree-sitter-openscad) — The Programmer's Solid 3D CAD Modeller
@@ -96,8 +100,11 @@ I've created several in hopes of having grammars for (nearly) every language.
 <details>
 <summary><small><b>Parsers I've contributed to</small></b></summary>
 
+- [C](https://github.com/tree-sitter/tree-sitter-c) — A general-purpose computer programming language
 - [C++](https://github.com/tree-sitter/tree-sitter-cpp) — A high-level, general-purpose programming language designed
   for system and application programming
+- [Go](https://github.com/tree-sitter/tree-sitter-go) — A statically typed, compiled high-level programming language
+  designed at Google
 - [Java](https://github.com/amaanq/tree-sitter-java) — A programming language and computing platform first released by
   Sun Microsystems in 1995
 
