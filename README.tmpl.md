@@ -44,6 +44,8 @@ I've created several in hopes of having grammars for (nearly) every language.
   — The best from both XML and JSON
 - [Cue](https://github.com/eonpatapon/tree-sitter-cue) — An open source data constraint language, which aims to simplify
   tasks involving defining and using data
+- [Cython](https://github.com/amaanq/tree-sitter-cython) — An optimising static compiler for both the Python programming
+  language and the extended Cython programming language (based on Pyrex)
 - [Elsa](https://github.com/glapa-grossklag/tree-sitter-elsa) — A lambda calculus evaluator
 - [FIRRTL](https://github.com/chipsalliance/tree-sitter-firrtl) — An intermediate representation (IR) for digital circuits
   designed as a platform for writing circuit-level transformations
@@ -100,13 +102,48 @@ I've created several in hopes of having grammars for (nearly) every language.
 <details>
 <summary><small><b>Parsers I've contributed to</small></b></summary>
 
+- [Arduino](https://github.com/ObserverOfTime/tree-sitter-arduino) — A C++ based framework for microcontrollers
+- [Astro](https://github.com/virchau13/tree-sitter-astro) — An all-in-one web framework designed for speed
+- [Bash](https://github.com/tree-sitter/tree-sitter-bash) — A Unix shell and command language written by Brian Fox for
+  the GNU Project as a free software replacement for the Bourne shell
 - [C](https://github.com/tree-sitter/tree-sitter-c) — A general-purpose computer programming language
 - [C++](https://github.com/tree-sitter/tree-sitter-cpp) — A high-level, general-purpose programming language designed
   for system and application programming
+- [CMake](https://github.com/uyha/tree-sitter-cmake) — An open-source, cross-platform family of tools designed to build,
+  test and package software
+- [Elixir](https://github.com/elixir-lang/tree-sitter-elixir) — A dynamic, functional language for building scalable and
+  maintainable applications
+- [Elm](https://github.com/elm-tooling/tree-sitter-elm) — A domain-specific programming language for declaratively creating
+  web browser-based graphical user interfaces
+- [Foam](https://github.com/FoamScience/tree-sitter-foam) — A C++ toolbox for the development of customized numerical solvers
+- [GDScript](https://github.com/PrestonKnopp/tree-sitter-gdscript) — A high-level, object-oriented, imperative, and
+  gradually typed programming language built for Godot
 - [Go](https://github.com/tree-sitter/tree-sitter-go) — A statically typed, compiled high-level programming language
   designed at Google
-- [Java](https://github.com/amaanq/tree-sitter-java) — A programming language and computing platform first released by
-  Sun Microsystems in 1995
+- [Hack](https://github.com/slackhq/tree-sitter-hack) — A programming language for the HipHop Virtual Machine (HHVM),
+  created by Facebook as a dialect of PHP
+- [Haskell](https://github.com/tree-sitter/tree-sitter-haskell) — A general-purpose, statically-typed, purely functional
+  programming language with type inference and lazy evaluation
+- [HTML](https://github.com/tree-sitter/tree-sitter-html) — The standard markup language for documents designed to be
+  displayed in a web browser
+- [Java](https://github.com/tree-sitter/tree-sitter-java) — A programming language and computing platform first released
+  by Sun Microsystems in 1995
+- [LALRPOP](https://github.com/traxys/tree-sitter-lalrpop) — A Rust parser generator framework with usability as its
+  primary goal
+- [Markdown](https://github.com/MDeiml/tree-sitter-markdown) — A lightweight markup language for creating formatted text
+  using a plain-text editor
+- [MATLAB](https://github.com/acristoffers/tree-sitter-matlab) — A programming and numeric computing platform used by millions
+  of engineers and scientists to analyze data, develop algorithms, and create models
+- [PHP](https://github.com/tree-sitter/tree-sitter-php) — A widely-used open source general-purpose scripting language that
+  is especially suited for web development and can be embedded into HTML
+- [Python](https://github.com/tree-sitter/tree-sitter-python) — A high-level, general-purpose programming language
+- [Racket](https://github.com/6cdh/tree-sitter-racket) — The first language to support higher-order software contracts
+  and safe gradual typing
+- [Rust](https://github.com/tree-sitter/tree-sitter-rust) — A multi-paradigm, general-purpose programming language that
+  emphasizes performance, type safety, and concurrency
+- [V](https://github.com/v-analyzer/v-analyzer) — A simple, fast, safe, compiled programming language for developing
+  maintainable software
+- [Vimdoc](https://github.com/neovim/tree-sitter-vimdoc) — Help files for Vim and Neovim
 
 </details>
 
@@ -115,7 +152,8 @@ I've created several in hopes of having grammars for (nearly) every language.
 A lot of my free-time nowadays goes to either tree-sitter parser development and maintenance or personal projects.
 My personal projects tend to revolve around Rust, Linux, Neovim, Reverse Engineering, or Clash of Clans.
 
-I am also an embedded software/hardware enthusiast and love to dabble in assembly code (namely the ARM family due to Android reversing).
+I am also an embedded software/hardware enthusiast and love to dabble in assembly code
+(namely the ARM family due to Android reversing).
 
 <details>
 <summary><small><b>Active Projects</b></small></summary>
@@ -144,7 +182,7 @@ I am also an embedded software/hardware enthusiast and love to dabble in assembl
 - [cr.go](https://github.com/amaanq/cr.go) — Clash Royale API Wrapper in Go
 - [Falcon8Reverse](https://github.com/amaanq/Falcon8Reverse) — Writing software to interact with Falcon 8 Keypad
 - [libpain](https://github.com/amaanq/libpain) — Demo of how to compile standalone C++ code to Android and hook with Frida
-- [sc-compression.go](https://github.com/amaanq/sc-compression.go) — Supercell asset (de)compression tool (in Go)
+- [sc-compression.go](https://github.com/amaanq/sc-compression.go) — Supercell asset (de)compression tool (in Go) -
 - [sc-compression.py](https://github.com/amaanq/sc-compression.py) — Supercell asset (de)compression tool (in Python)
 - [sc-compression.rs](https://github.com/amaanq/sc-compression.rs) — Supercell asset (de)compression tool (in Rust)
 - [vscode-hexeditor-varint](https://github.com/amaanq/vscode-hexeditor-varint) — Fork that adds varint support
