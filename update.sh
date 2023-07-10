@@ -28,7 +28,7 @@ main() {
 		((reposPage++)) && continue
 	done
 
-	publicReposJSON=$(printf "%s\n" "${reposJSON[@]}" | jq -c "select((.private | not ) and (.fork | not) and (.full_name | startswith(\"nvim-treesitter\") | not))")
+	publicReposJSON=$(printf "%s\n" "${reposJSON[@]}" | jq -c "select((.private | not) and (.fork | not) and (.full_name | startswith(\"nvim-treesitter\") | not) and (.full_name | startswith(\"tree-sitter\") | not))")
 
 	render >"$out"
 	saveCSV 'data/stargazers.csv' "$(nStargazers)"
