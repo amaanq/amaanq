@@ -19,7 +19,7 @@
 	</sub>
 </h6>
 
-- 📚️ 130 public repositories.
+- 📚️ 131 public repositories.
 - ⭐️ 721 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 📃️ Preferred Licenses: MIT (36%), GPL (12%), NOASSERTION (1%), and others (51%).
 - 📧 Questions? Reach out via email @ amaanq12@gmail.com
