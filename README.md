@@ -8,7 +8,7 @@
 	<!-- <img alt="General Stats" height="152" -->
 	<!-- src="https://github-readme-stats.vercel.app/api?username=amaanq&show_icons=true&theme=tokyonight&hide=stars&count_private=true&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true"/> -->
 	<img alt="Languages Used"
-	src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&langs_count=10&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true"/>
+	    src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaanq&langs_count=10&layout=compact&theme=tokyonight&title_color=0x005ACE&icon_color=0x005ACE&hide_title=true"/>
 	<!-- <img alt="Commit Stats" width="500" -->
 	<!-- src="https://github-readme-streak-stats.herokuapp.com?user=amaanq&theme=tokyonight_duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&border=005ACE&stroke=005ACE&ring=005ACE&fire=005ACE"/> -->
 </p>
@@ -30,7 +30,7 @@
 ## Tree Sitter
 
 I maintain and contribute to various tree-sitter repositories, including all the [upstream](https://github.com/tree-sitter)
-ones, and those under the [](https://github.com/tree-sitter-grammar).
+ones, and those under the [tree-sitter-grammars](https://github.com/tree-sitter-grammars) org.
 
 I've created a bunch myself in hopes of having grammars for (nearly) every language.
 
