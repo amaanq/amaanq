@@ -40,7 +40,7 @@ A lot of my free-time nowadays goes to either tree-sitter parser development and
 My personal projects tend to revolve around Rust, Linux, Neovim, or Reverse Engineering. Reverse engineering (RE) is definitely
 my favorite pass-time when it comes to anything programming-related.
 
-I am also an embedded software/hardware enthusiast and love to dabble in assembly code; namely the ARM family due to
-Android app reverse engineering, X86 is ugly, but RISC-V is cool.
+I am also an embedded software/hardware enthusiast and love to dabble in assembly code, especially with the ARM family due to
+prior history in Android app reverse engineering. Also, X86 is ugly, but RISC-V is li a0, 0x636F6F6C 😁.
 
 You can find some of my projects on my GitHub profile, though a lot of them are old and suck when I look at it now 🙈
